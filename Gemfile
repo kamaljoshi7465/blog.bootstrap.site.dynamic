@@ -71,4 +71,11 @@ group :test do
   gem "webdrivers"
 end
 
+gem 'activeadmin'
 
+# Plus integrations with:
+gem 'devise'
+gem 'cancancan'
+gem 'draper'
+gem 'pundit'
+gem 'sassc'
