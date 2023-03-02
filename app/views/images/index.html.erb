@@ -6,18 +6,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
-<body>
+<body>  
 
-
+<div>
 <!-- Navbar (sit on top) -->
 <%= render partial:'navbar' %>
 
 <!-- Header -->
-<% @sliders.each_slice(1).each do |article| %>
-  <%= render 'header', project: article %>
-<% end %>
-
-
+ <div class="w-col l3 m6 w3-margin-bottom">
+    <% @sliders.each_slice(1).each do |article| %>
+      <%= render 'header', project: article %>
+    <% end %>
+  </div>
 
 <!-- Page content -->
   <div class="w3-container w3-padding-32" id="projects">
@@ -27,9 +27,6 @@
   <% @projects.each_slice(4).each do |article| %>
     <%= render 'project', project: article %>
   <% end %>
-
-
-
 
   <!-- About Section -->
   <div class="w3-container w3-padding-32" id="about">
@@ -44,10 +41,8 @@
     <%= render 'about', project: article%>
   <% end %>
 
-
   <!-- Contact Section -->
 <%= render partial: 'contact'%>
-  
   
 <!-- Image of location/map -->
 <%= render partial: 'image_location'%>
@@ -55,9 +50,9 @@
 <!-- End page content -->
 </div>
 
-
 <!-- Footer -->
 <%= render partial: 'footer'%>
 
+</div>
 </body>
 </html>

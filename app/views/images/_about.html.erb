@@ -6,21 +6,15 @@
     </p>
   </div> %>
 
-
-
-<div class="w3-row-padding w3-grayscale">
-<% project.each do |pro|%>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <%# <img src="/w3images/team2.jpg" alt="John" style="width:100%"> %>
-      <%= image_tag 'team2.jpg', style: "width:100%" %>
-      <h3><%= pro.title %></h3>
+  <div class="w3-row-padding w3-grayscale">
+    <% project.each do |pro| %>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <%# <img src="/w3images/team2.jpg" alt="John" style="width:100%"> %>
+        <%= image_tag "team2.jpg", style: "width:100%" %>
+        <h3><%= pro.title %></h3>
         <p class="w3-opacity"><%= pro.subtitle %></p>
-      <p><%= pro.body %></p>
-      <p><button class="w3-button w3-light-grey w3-block"><%= pro.email %></button></p>
-    </div>
-<% end %>
+        <p><%= pro.body %></p>
+        <p><button class="w3-button w3-light-grey w3-block"><%= pro.email %></button></p>
+      </div>
+    <% end %>
   </div>
-
-
-    
-   

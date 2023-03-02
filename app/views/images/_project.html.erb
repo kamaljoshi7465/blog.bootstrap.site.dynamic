@@ -1,11 +1,10 @@
- 
-  <div class="w3-row-padding">
-    <% project.each do |pro|%>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-            <div class="w3-display-topleft w3-black w3-padding"><%= pro.title %></div>
-            <%= image_tag 'house5.jpg', style: "width:100%" %>
-        </div>
-        </div>
-    <% end %>
-  </div>
+<div class="w3-row-padding">
+  <% project.each do |pro| %>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"><%= pro.title %></div>
+        <%= image_tag "house5.jpg", style: "width:100%" %>
+      </div>
+    </div>
+  <% end %>
+</div>
