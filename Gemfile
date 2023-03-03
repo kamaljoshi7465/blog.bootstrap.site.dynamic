@@ -80,3 +80,4 @@ gem 'draper'
 gem 'pundit'
 gem 'sassc'
 gem "erb-formatter", "~> 0.4.2"
+gem 'carrierwave'

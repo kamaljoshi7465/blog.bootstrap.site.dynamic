@@ -25319,3 +25319,1842 @@ Processing by ImagesController#index as HTML
 Completed 200 OK in 89ms (Views: 86.9ms | ActiveRecord: 2.9ms | Allocations: 33494)
 
 
+Started GET "/" for ::1 at 2023-03-02 17:05:34 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.7ms | Allocations: 97)
+  [1m[36mSlider Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.2ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 4.4ms | Allocations: 874)
+  [1m[36mProject Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 5.0ms | Allocations: 1429)
+  Rendered images/_project.html.erb (Duration: 3.8ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 5.8ms | Allocations: 1483)
+  Rendered images/_contact.html.erb (Duration: 1.3ms | Allocations: 124)
+  Rendered images/_image_location.html.erb (Duration: 2.9ms | Allocations: 562)
+  Rendered images/_footer.html.erb (Duration: 0.4ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 56.0ms | Allocations: 10669)
+  Rendered layout layouts/application.html.erb (Duration: 73.8ms | Allocations: 15370)
+Completed 200 OK in 83ms (Views: 79.5ms | ActiveRecord: 3.6ms | Allocations: 16181)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:05:48 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.5ms | Allocations: 97)
+  [1m[36mSlider Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.3ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 4.0ms | Allocations: 870)
+  [1m[36mProject Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 2.6ms | Allocations: 1402)
+  Rendered images/_project.html.erb (Duration: 1.3ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 6.6ms | Allocations: 1480)
+  Rendered images/_contact.html.erb (Duration: 0.7ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 1.9ms | Allocations: 559)
+  Rendered images/_footer.html.erb (Duration: 0.7ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 44.8ms | Allocations: 10423)
+  Rendered layout layouts/application.html.erb (Duration: 60.7ms | Allocations: 15111)
+Completed 200 OK in 65ms (Views: 61.6ms | ActiveRecord: 1.9ms | Allocations: 15925)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:06:23 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.6ms | Allocations: 97)
+  [1m[36mSlider Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.4ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 3.7ms | Allocations: 870)
+  [1m[36mProject Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 6.9ms | Allocations: 1438)
+  Rendered images/_project.html.erb (Duration: 1.4ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 3.9ms | Allocations: 1480)
+  Rendered images/_contact.html.erb (Duration: 0.7ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 1.3ms | Allocations: 559)
+  Rendered images/_footer.html.erb (Duration: 0.4ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 48.1ms | Allocations: 10459)
+  Rendered layout layouts/application.html.erb (Duration: 65.3ms | Allocations: 15132)
+Completed 200 OK in 69ms (Views: 65.5ms | ActiveRecord: 2.1ms | Allocations: 15944)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:07:10 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.4ms | Allocations: 97)
+  [1m[36mSlider Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.2ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 6.9ms | Allocations: 870)
+  [1m[36mProject Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 3.2ms | Allocations: 1413)
+  Rendered images/_project.html.erb (Duration: 2.2ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 8.3ms | Allocations: 1485)
+  Rendered images/_contact.html.erb (Duration: 2.6ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 4.2ms | Allocations: 562)
+  Rendered images/_footer.html.erb (Duration: 0.8ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 56.5ms | Allocations: 10447)
+  Rendered layout layouts/application.html.erb (Duration: 68.5ms | Allocations: 15148)
+Completed 200 OK in 76ms (Views: 71.4ms | ActiveRecord: 1.6ms | Allocations: 15960)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:07:11 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.1ms | Allocations: 9)
+  [1m[36mSlider Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.3ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 6.1ms | Allocations: 959)
+  [1m[36mProject Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 3.0ms | Allocations: 1335)
+  Rendered images/_project.html.erb (Duration: 1.5ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 6.4ms | Allocations: 1738)
+  Rendered images/_contact.html.erb (Duration: 0.2ms | Allocations: 8)
+  Rendered images/_image_location.html.erb (Duration: 2.4ms | Allocations: 436)
+  Rendered images/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered images/index.html.erb within layouts/application (Duration: 64.9ms | Allocations: 11733)
+  Rendered layout layouts/application.html.erb (Duration: 109.5ms | Allocations: 18390)
+Completed 200 OK in 115ms (Views: 109.0ms | ActiveRecord: 2.0ms | Allocations: 19137)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:07:11 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.0ms | Allocations: 9)
+  [1m[36mSlider Count (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.1ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 4.7ms | Allocations: 618)
+  [1m[36mProject Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 4.9ms | Allocations: 1236)
+  Rendered images/_project.html.erb (Duration: 4.9ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 3.6ms | Allocations: 1238)
+  Rendered images/_contact.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered images/_image_location.html.erb (Duration: 1.2ms | Allocations: 438)
+  Rendered images/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered images/index.html.erb within layouts/application (Duration: 39.4ms | Allocations: 8578)
+  Rendered layout layouts/application.html.erb (Duration: 50.4ms | Allocations: 12997)
+Completed 200 OK in 52ms (Views: 49.2ms | ActiveRecord: 2.5ms | Allocations: 13298)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:07:37 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.8ms | Allocations: 97)
+  [1m[36mSlider Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.3ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 2.9ms | Allocations: 876)
+  [1m[36mProject Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 4.2ms | Allocations: 1402)
+  Rendered images/_project.html.erb (Duration: 2.2ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 3.1ms | Allocations: 1483)
+  Rendered images/_contact.html.erb (Duration: 0.5ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 1.8ms | Allocations: 560)
+  Rendered images/_footer.html.erb (Duration: 0.4ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 44.2ms | Allocations: 10458)
+  Rendered layout layouts/application.html.erb (Duration: 61.1ms | Allocations: 15143)
+Completed 200 OK in 65ms (Views: 60.8ms | ActiveRecord: 3.1ms | Allocations: 15954)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:08:01 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.3ms | Allocations: 97)
+  [1m[36mSlider Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.3ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 4.6ms | Allocations: 881)
+  [1m[36mProject Count (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 6.0ms | Allocations: 1409)
+  Rendered images/_project.html.erb (Duration: 1.4ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 4.3ms | Allocations: 1485)
+  Rendered images/_contact.html.erb (Duration: 0.7ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 7.2ms | Allocations: 562)
+  Rendered images/_footer.html.erb (Duration: 0.6ms | Allocations: 95)
+  Rendered images/index.html.erb within layouts/application (Duration: 60.0ms | Allocations: 10475)
+  Rendered layout layouts/application.html.erb (Duration: 72.2ms | Allocations: 15174)
+Completed 200 OK in 76ms (Views: 72.3ms | ActiveRecord: 2.4ms | Allocations: 15986)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:08:33 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.1ms | Allocations: 97)
+  [1m[36mSlider Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.3ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 2.9ms | Allocations: 878)
+  [1m[36mProject Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 6.1ms | Allocations: 1409)
+  Rendered images/_project.html.erb (Duration: 1.6ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 3.1ms | Allocations: 1486)
+  Rendered images/_contact.html.erb (Duration: 0.9ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 2.2ms | Allocations: 562)
+  Rendered images/_footer.html.erb (Duration: 1.6ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 48.7ms | Allocations: 10452)
+  Rendered layout layouts/application.html.erb (Duration: 67.4ms | Allocations: 15150)
+Completed 200 OK in 71ms (Views: 67.8ms | ActiveRecord: 2.3ms | Allocations: 15962)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:08:49 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.2ms | Allocations: 97)
+  [1m[36mSlider Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.2ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 3.4ms | Allocations: 877)
+  [1m[36mProject Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 4.2ms | Allocations: 1409)
+  Rendered images/_project.html.erb (Duration: 2.9ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 3.7ms | Allocations: 1487)
+  Rendered images/_contact.html.erb (Duration: 0.5ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 1.3ms | Allocations: 562)
+  Rendered images/_footer.html.erb (Duration: 0.7ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 44.2ms | Allocations: 10452)
+  Rendered layout layouts/application.html.erb (Duration: 61.6ms | Allocations: 15147)
+Completed 200 OK in 66ms (Views: 62.1ms | ActiveRecord: 2.2ms | Allocations: 15959)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:09:07 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.3ms | Allocations: 97)
+  [1m[36mSlider Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.2ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 4.6ms | Allocations: 870)
+  [1m[36mProject Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 4.2ms | Allocations: 1409)
+  Rendered images/_project.html.erb (Duration: 1.4ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 3.4ms | Allocations: 1484)
+  Rendered images/_contact.html.erb (Duration: 0.6ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 1.7ms | Allocations: 560)
+  Rendered images/_footer.html.erb (Duration: 0.4ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 43.9ms | Allocations: 10440)
+  Rendered layout layouts/application.html.erb (Duration: 60.8ms | Allocations: 15140)
+Completed 200 OK in 65ms (Views: 61.2ms | ActiveRecord: 2.1ms | Allocations: 15952)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:09:19 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.9ms | Allocations: 97)
+  [1m[36mSlider Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.1ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 5.6ms | Allocations: 878)
+  [1m[36mProject Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 3.9ms | Allocations: 1409)
+  Rendered images/_project.html.erb (Duration: 2.5ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 5.5ms | Allocations: 1487)
+  Rendered images/_contact.html.erb (Duration: 1.7ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 4.6ms | Allocations: 562)
+  Rendered images/_footer.html.erb (Duration: 0.6ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 49.8ms | Allocations: 10453)
+  Rendered layout layouts/application.html.erb (Duration: 62.4ms | Allocations: 15155)
+Completed 200 OK in 75ms (Views: 72.2ms | ActiveRecord: 1.5ms | Allocations: 15967)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:09:31 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.0ms | Allocations: 97)
+  [1m[36mSlider Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.4ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 7.5ms | Allocations: 877)
+  [1m[36mProject Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 3.7ms | Allocations: 1403)
+  Rendered images/_project.html.erb (Duration: 1.4ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 2.9ms | Allocations: 1485)
+  Rendered images/_contact.html.erb (Duration: 0.9ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 2.2ms | Allocations: 562)
+  Rendered images/_footer.html.erb (Duration: 2.0ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 48.6ms | Allocations: 10444)
+  Rendered layout layouts/application.html.erb (Duration: 63.3ms | Allocations: 15133)
+Completed 200 OK in 70ms (Views: 66.3ms | ActiveRecord: 1.7ms | Allocations: 15945)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:09:46 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.0ms | Allocations: 97)
+  [1m[36mSlider Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.2ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 4.3ms | Allocations: 877)
+  [1m[36mProject Count (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 4.1ms | Allocations: 1402)
+  Rendered images/_project.html.erb (Duration: 1.5ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 3.5ms | Allocations: 1486)
+  Rendered images/_contact.html.erb (Duration: 0.7ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 2.6ms | Allocations: 562)
+  Rendered images/_footer.html.erb (Duration: 0.8ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 46.8ms | Allocations: 10444)
+  Rendered layout layouts/application.html.erb (Duration: 63.3ms | Allocations: 15148)
+Completed 200 OK in 67ms (Views: 62.8ms | ActiveRecord: 2.9ms | Allocations: 15963)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:09:52 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.1ms | Allocations: 97)
+  [1m[36mSlider Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.2ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 4.1ms | Allocations: 873)
+  [1m[36mProject Count (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 4.4ms | Allocations: 1409)
+  Rendered images/_project.html.erb (Duration: 1.2ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 3.5ms | Allocations: 1483)
+  Rendered images/_contact.html.erb (Duration: 0.5ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 1.9ms | Allocations: 559)
+  Rendered images/_footer.html.erb (Duration: 1.3ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 48.1ms | Allocations: 10441)
+  Rendered layout layouts/application.html.erb (Duration: 71.9ms | Allocations: 15147)
+Completed 200 OK in 77ms (Views: 72.8ms | ActiveRecord: 2.7ms | Allocations: 15959)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:10:08 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.8ms | Allocations: 97)
+  [1m[36mSlider Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.5ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 5.1ms | Allocations: 878)
+  [1m[36mProject Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 4.0ms | Allocations: 1409)
+  Rendered images/_project.html.erb (Duration: 1.3ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 5.4ms | Allocations: 1485)
+  Rendered images/_contact.html.erb (Duration: 2.3ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 3.5ms | Allocations: 562)
+  Rendered images/_footer.html.erb (Duration: 3.2ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 53.7ms | Allocations: 10451)
+  Rendered layout layouts/application.html.erb (Duration: 69.8ms | Allocations: 15156)
+Completed 200 OK in 76ms (Views: 71.7ms | ActiveRecord: 1.7ms | Allocations: 15968)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:10:15 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.4ms | Allocations: 97)
+  [1m[36mSlider Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.2ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 5.1ms | Allocations: 870)
+  [1m[36mProject Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 8.3ms | Allocations: 1410)
+  Rendered images/_project.html.erb (Duration: 2.1ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 4.3ms | Allocations: 1485)
+  Rendered images/_contact.html.erb (Duration: 0.8ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 3.5ms | Allocations: 562)
+  Rendered images/_footer.html.erb (Duration: 1.1ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 53.7ms | Allocations: 10444)
+  Rendered layout layouts/application.html.erb (Duration: 68.5ms | Allocations: 15136)
+Completed 200 OK in 72ms (Views: 68.7ms | ActiveRecord: 2.0ms | Allocations: 15948)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:12:18 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.1ms | Allocations: 97)
+  [1m[36mSlider Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.3ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 4.0ms | Allocations: 876)
+  [1m[36mProject Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 6.5ms | Allocations: 1409)
+  Rendered images/_project.html.erb (Duration: 5.2ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 8.0ms | Allocations: 1486)
+  Rendered images/_contact.html.erb (Duration: 1.2ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 3.3ms | Allocations: 562)
+  Rendered images/_footer.html.erb (Duration: 0.7ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 59.1ms | Allocations: 10453)
+  Rendered layout layouts/application.html.erb (Duration: 81.7ms | Allocations: 15129)
+Completed 200 OK in 89ms (Views: 84.1ms | ActiveRecord: 1.9ms | Allocations: 15941)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:12:24 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.8ms | Allocations: 97)
+  [1m[36mSlider Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.2ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 4.0ms | Allocations: 870)
+  [1m[36mProject Count (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 4.1ms | Allocations: 1402)
+  Rendered images/_project.html.erb (Duration: 2.3ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 9.6ms | Allocations: 1489)
+  Rendered images/_contact.html.erb (Duration: 0.7ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 4.3ms | Allocations: 563)
+  Rendered images/_footer.html.erb (Duration: 0.8ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 65.5ms | Allocations: 10436)
+  Rendered layout layouts/application.html.erb (Duration: 83.5ms | Allocations: 15134)
+Completed 200 OK in 88ms (Views: 83.3ms | ActiveRecord: 3.1ms | Allocations: 15946)
+
+
+Started GET "/" for ::1 at 2023-03-02 17:14:53 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.2ms | Allocations: 97)
+  [1m[36mSlider Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:18:in `each_slice'
+  [1m[36mSlider Load (0.4ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:18:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 4.4ms | Allocations: 878)
+  [1m[36mProject Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:28:in `each_slice'
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:28:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 4.3ms | Allocations: 1405)
+  Rendered images/_project.html.erb (Duration: 3.0ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:41:in `each_slice'
+  [1m[36mPortfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:41:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 4.5ms | Allocations: 1485)
+  Rendered images/_contact.html.erb (Duration: 0.8ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 2.8ms | Allocations: 560)
+  Rendered images/_footer.html.erb (Duration: 1.1ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 52.6ms | Allocations: 10443)
+  Rendered layout layouts/application.html.erb (Duration: 114.8ms | Allocations: 22254)
+Completed 200 OK in 119ms (Views: 115.9ms | ActiveRecord: 2.0ms | Allocations: 23066)
+
+
+Started GET "/application.css" for ::1 at 2023-03-02 17:14:53 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/" for ::1 at 2023-03-02 17:15:13 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.0ms | Allocations: 9)
+  [1m[36mSlider Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:18:in `each_slice'
+  [1m[36mSlider Load (0.1ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:18:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 3.4ms | Allocations: 625)
+  [1m[36mProject Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:28:in `each_slice'
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:28:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 8.2ms | Allocations: 1236)
+  Rendered images/_project.html.erb (Duration: 1.9ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:41:in `each_slice'
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:41:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 2.8ms | Allocations: 1241)
+  Rendered images/_contact.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered images/_image_location.html.erb (Duration: 1.3ms | Allocations: 435)
+  Rendered images/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered images/index.html.erb within layouts/application (Duration: 41.5ms | Allocations: 8572)
+  Rendered layout layouts/application.html.erb (Duration: 99.7ms | Allocations: 20193)
+Completed 200 OK in 101ms (Views: 98.8ms | ActiveRecord: 1.7ms | Allocations: 20495)
+
+
+Started GET "/application.css" for ::1 at 2023-03-02 17:15:13 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  
+Started GET "/" for ::1 at 2023-03-02 17:23:01 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.2ms | Allocations: 97)
+  [1m[36mSlider Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.2ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 4.3ms | Allocations: 877)
+  [1m[36mProject Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 4.1ms | Allocations: 1406)
+  Rendered images/_project.html.erb (Duration: 1.1ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:41:in `each_slice'
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:41:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 2.9ms | Allocations: 1482)
+  Rendered images/_contact.html.erb (Duration: 0.5ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 1.4ms | Allocations: 559)
+  Rendered images/_footer.html.erb (Duration: 1.5ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 46.3ms | Allocations: 10643)
+  Rendered layout layouts/application.html.erb (Duration: 64.5ms | Allocations: 15457)
+Completed 200 OK in 68ms (Views: 67.1ms | ActiveRecord: 3.7ms | Allocations: 16268)
+
+
+Started GET "/" for ::1 at 2023-03-03 10:06:34 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.6ms | Allocations: 107)
+  [1m[36mSlider Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.1ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 73.0ms | Allocations: 45507)
+  [1m[36mProject Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 1.7ms | Allocations: 1433)
+  Rendered images/_project.html.erb (Duration: 0.7ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 2.8ms | Allocations: 1530)
+  Rendered images/_contact.html.erb (Duration: 0.4ms | Allocations: 125)
+  Rendered images/_image_location.html.erb (Duration: 1.1ms | Allocations: 586)
+  Rendered images/_footer.html.erb (Duration: 0.3ms | Allocations: 96)
+  Rendered images/index.html.erb within layouts/application (Duration: 111.0ms | Allocations: 64697)
+  Rendered layout layouts/application.html.erb (Duration: 150.5ms | Allocations: 85061)
+Completed 200 OK in 167ms (Views: 155.1ms | ActiveRecord: 1.9ms | Allocations: 89839)
+
+
+Started GET "/" for ::1 at 2023-03-03 10:23:20 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.3ms | Allocations: 107)
+  [1m[36mSlider Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.2ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 91.2ms | Allocations: 44833)
+  [1m[36mProject Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 1.6ms | Allocations: 1436)
+  Rendered images/_project.html.erb (Duration: 0.6ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 1.8ms | Allocations: 1525)
+  Rendered images/_contact.html.erb (Duration: 0.4ms | Allocations: 125)
+  Rendered images/_image_location.html.erb (Duration: 0.9ms | Allocations: 584)
+  Rendered images/_footer.html.erb (Duration: 0.3ms | Allocations: 96)
+  Rendered images/index.html.erb within layouts/application (Duration: 122.8ms | Allocations: 64020)
+  Rendered layout layouts/application.html.erb (Duration: 144.8ms | Allocations: 84274)
+Completed 200 OK in 155ms (Views: 146.3ms | ActiveRecord: 2.5ms | Allocations: 89052)
+
+
+Started GET "/" for ::1 at 2023-03-03 11:34:32 +0530
+  
+NameError (uninitialized constant Portfolio::AvatarUploader):
+  
+app/models/portfolio.rb:2:in `<class:Portfolio>'
+app/models/portfolio.rb:1:in `<main>'
+app/admin/portfolios.rb:1:in `<main>'
+Started GET "/" for ::1 at 2023-03-03 11:35:55 +0530
+  
+NameError (uninitialized constant Portfolio::AvatarUploader):
+  
+app/models/portfolio.rb:2:in `<class:Portfolio>'
+app/models/portfolio.rb:1:in `<main>'
+app/admin/portfolios.rb:1:in `<main>'
+config/routes.rb:5:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2023-03-03 11:36:24 +0530
+  
+NameError (uninitialized constant Portfolio::AvatarUploader):
+  
+app/models/portfolio.rb:2:in `<class:Portfolio>'
+app/models/portfolio.rb:1:in `<main>'
+app/admin/portfolios.rb:1:in `<main>'
+config/routes.rb:5:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2023-03-03 11:42:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for ::1 at 2023-03-03 11:42:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for ::1 at 2023-03-03 11:42:40 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.0ms | Allocations: 107)
+  [1m[36mSlider Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.3ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 128.0ms | Allocations: 45059)
+  [1m[36mProject Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 2.9ms | Allocations: 1433)
+  Rendered images/_project.html.erb (Duration: 1.0ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 2.9ms | Allocations: 1524)
+  Rendered images/_contact.html.erb (Duration: 0.5ms | Allocations: 125)
+  Rendered images/_image_location.html.erb (Duration: 2.3ms | Allocations: 584)
+  Rendered images/_footer.html.erb (Duration: 0.7ms | Allocations: 96)
+  Rendered images/index.html.erb within layouts/application (Duration: 188.5ms | Allocations: 64223)
+  Rendered layout layouts/application.html.erb (Duration: 247.2ms | Allocations: 84685)
+Completed 200 OK in 269ms (Views: 250.3ms | ActiveRecord: 5.3ms | Allocations: 89466)
+
+
+Started GET "/admin" for ::1 at 2023-03-03 11:42:49 +0530
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 6ms (ActiveRecord: 0.0ms | Allocations: 583)
+
+
+Started GET "/admin/login" for ::1 at 2023-03-03 11:42:49 +0530
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering layout /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/layouts/active_admin_logged_out.html.erb
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/devise/shared/_links.erb (Duration: 2.3ms | Allocations: 646)
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (Duration: 29.1ms | Allocations: 10671)
+  Rendered layout /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/layouts/active_admin_logged_out.html.erb (Duration: 50.5ms | Allocations: 22438)
+Completed 200 OK in 66ms (Views: 53.2ms | ActiveRecord: 0.8ms | Allocations: 27756)
+
+
+Started POST "/admin/login" for ::1 at 2023-03-03 11:42:58 +0530
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admin
+Completed 303 See Other in 357ms (ActiveRecord: 0.6ms | Allocations: 6520)
+
+
+Started GET "/admin" for ::1 at 2023-03-03 11:42:59 +0530
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/page/index.html.arb
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/page/index.html.arb (Duration: 34.2ms | Allocations: 16482)
+Completed 200 OK in 52ms (Views: 37.0ms | ActiveRecord: 0.4ms | Allocations: 19020)
+
+
+Started GET "/admin/images" for ::1 at 2023-03-03 11:43:05 +0530
+Processing by Admin::ImagesController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images".* FROM "images" ORDER BY "images"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 54.0ms | Allocations: 23222)
+Completed 200 OK in 81ms (Views: 56.7ms | ActiveRecord: 1.3ms | Allocations: 36098)
+
+
+Started GET "/admin/portfolios" for ::1 at 2023-03-03 11:43:10 +0530
+Processing by Admin::PortfoliosController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY "portfolios"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 109.0ms | Allocations: 42788)
+Completed 200 OK in 120ms (Views: 111.1ms | ActiveRecord: 0.8ms | Allocations: 45253)
+
+
+Started GET "/admin/portfolios/4/edit" for ::1 at 2023-03-03 11:43:24 +0530
+Processing by Admin::PortfoliosController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Portfolio Load (0.0ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb (Duration: 67.0ms | Allocations: 29909)
+Completed 200 OK in 78ms (Views: 68.8ms | ActiveRecord: 0.6ms | Allocations: 33459)
+
+
+Started PATCH "/admin/portfolios/4" for ::1 at 2023-03-03 11:43:35 +0530
+Processing by Admin::PortfoliosController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "portfolio"=>{"title"=>"Dan Star", "subtitle"=>"Architect", "email"=>"danstar@gmail.com", "body"=>"Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.\r\n\r\n\r\n", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f924b3f4b18 @tempfile=#<Tempfile:/tmp/RackMultipart20230303-19439-c7jtoi.jpg>, @original_filename="team4.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"portfolio[image]\"; filename=\"team4.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Portfolio", "id"=>"4"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPortfolio Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "portfolios" WHERE "portfolios"."email" = ? AND "portfolios"."id" != ? LIMIT ?[0m  [["email", "danstar@gmail.com"], ["id", 4], ["LIMIT", 1]]
+  [1m[36mPortfolio Update (0.8ms)[0m  [1m[33mUPDATE "portfolios" SET "image" = ?, "updated_at" = ? WHERE "portfolios"."id" = ?[0m  [["image", "team4.jpg"], ["updated_at", "2023-03-03 06:13:35.764550"], ["id", 4]]
+  [1m[36mTRANSACTION (4.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/portfolios/4
+Completed 302 Found in 62ms (ActiveRecord: 7.0ms | Allocations: 11933)
+
+
+Started GET "/admin/portfolios/4" for ::1 at 2023-03-03 11:43:35 +0530
+Processing by Admin::PortfoliosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb
+  [1m[36mActiveAdmin::Comment Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Portfolio"], ["resource_id", 4], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Portfolio"], ["resource_id", 4], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb (Duration: 71.9ms | Allocations: 32789)
+Completed 200 OK in 83ms (Views: 71.6ms | ActiveRecord: 2.2ms | Allocations: 35639)
+
+
+Started GET "/admin/portfolios" for ::1 at 2023-03-03 11:43:44 +0530
+Processing by Admin::PortfoliosController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY "portfolios"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 77.8ms | Allocations: 38478)
+Completed 200 OK in 85ms (Views: 78.8ms | ActiveRecord: 0.6ms | Allocations: 40405)
+
+
+Started GET "/" for ::1 at 2023-03-03 11:43:50 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.1ms | Allocations: 9)
+  [1m[36mSlider Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.3ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 2.6ms | Allocations: 625)
+  [1m[36mProject Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 13.8ms | Allocations: 1237)
+  Rendered images/_project.html.erb (Duration: 1.4ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 2.4ms | Allocations: 1245)
+  Rendered images/_contact.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered images/_image_location.html.erb (Duration: 0.9ms | Allocations: 442)
+  Rendered images/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered images/index.html.erb within layouts/application (Duration: 40.6ms | Allocations: 8588)
+  Rendered layout layouts/application.html.erb (Duration: 52.9ms | Allocations: 13148)
+Completed 200 OK in 56ms (Views: 52.4ms | ActiveRecord: 1.7ms | Allocations: 13451)
+
+
+Started GET "/" for ::1 at 2023-03-03 11:45:18 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.9ms | Allocations: 97)
+  [1m[36mSlider Count (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.2ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 4.7ms | Allocations: 873)
+  [1m[36mProject Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 3.3ms | Allocations: 1402)
+  Rendered images/_project.html.erb (Duration: 1.1ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 2.6ms | Allocations: 760)
+  Rendered images/_contact.html.erb (Duration: 0.8ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 1.6ms | Allocations: 559)
+  Rendered images/_footer.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 39.3ms | Allocations: 9710)
+  Rendered layout layouts/application.html.erb (Duration: 52.2ms | Allocations: 14459)
+Completed 200 OK in 59ms (Views: 54.9ms | ActiveRecord: 1.9ms | Allocations: 15270)
+
+
+Started GET "/uploads/portfolio/image/1/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90c2e6140%3E" for ::1 at 2023-03-03 11:45:18 +0530
+Started GET "/uploads/portfolio/image/2/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90c0339e8%3E" for ::1 at 2023-03-03 11:45:18 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/portfolio/image/1/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90c2e6140%3E"):
+  
+Started GET "/uploads/portfolio/image/3/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90cbbb8b0%3E" for ::1 at 2023-03-03 11:45:18 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/portfolio/image/3/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90cbbb8b0%3E"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/portfolio/image/2/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90c0339e8%3E"):
+  
+Started GET "/admin/portfolios" for ::1 at 2023-03-03 11:46:07 +0530
+Processing by Admin::PortfoliosController#index as HTML
+  [1m[36mAdminUser Load (0.9ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY "portfolios"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 90.3ms | Allocations: 39610)
+Completed 200 OK in 109ms (Views: 96.4ms | ActiveRecord: 1.4ms | Allocations: 41935)
+
+
+Started GET "/admin/portfolios/1/edit" for ::1 at 2023-03-03 11:46:19 +0530
+Processing by Admin::PortfoliosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Portfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb (Duration: 77.1ms | Allocations: 26658)
+Completed 200 OK in 86ms (Views: 78.9ms | ActiveRecord: 0.4ms | Allocations: 29489)
+
+
+Started PATCH "/admin/portfolios/1" for ::1 at 2023-03-03 11:46:21 +0530
+Processing by Admin::PortfoliosController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "portfolio"=>{"title"=>"John Doe", "subtitle"=>"CEO & Founder", "email"=>"johndoe@gmail.com", "body"=>"Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.\r\n\r\n\r\n"}, "commit"=>"Update Portfolio", "id"=>"1"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPortfolio Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "portfolios" WHERE "portfolios"."email" = ? AND "portfolios"."id" != ? LIMIT ?[0m  [["email", "johndoe@gmail.com"], ["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mrollback transaction[0m
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb (Duration: 58.7ms | Allocations: 28594)
+Completed 200 OK in 84ms (Views: 59.9ms | ActiveRecord: 1.0ms | Allocations: 37135)
+
+
+Started PATCH "/admin/portfolios/1" for ::1 at 2023-03-03 11:46:33 +0530
+Processing by Admin::PortfoliosController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "portfolio"=>{"title"=>"John Doe", "subtitle"=>"CEO & Founder", "email"=>"johndoe@gmail.com", "body"=>"Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.\r\n\r\n\r\n", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f924a97f8e0 @tempfile=#<Tempfile:/tmp/RackMultipart20230303-19439-y44480.jpg>, @original_filename="team2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"portfolio[image]\"; filename=\"team2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Portfolio", "id"=>"1"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPortfolio Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "portfolios" WHERE "portfolios"."email" = ? AND "portfolios"."id" != ? LIMIT ?[0m  [["email", "johndoe@gmail.com"], ["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Update (0.6ms)[0m  [1m[33mUPDATE "portfolios" SET "image" = ?, "updated_at" = ? WHERE "portfolios"."id" = ?[0m  [["image", "team2.jpg"], ["updated_at", "2023-03-03 06:16:33.297293"], ["id", 1]]
+  [1m[36mTRANSACTION (10.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/portfolios/1
+Completed 302 Found in 40ms (ActiveRecord: 12.3ms | Allocations: 9501)
+
+
+Started GET "/admin/portfolios/1" for ::1 at 2023-03-03 11:46:33 +0530
+Processing by Admin::PortfoliosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb
+  [1m[36mActiveAdmin::Comment Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Portfolio"], ["resource_id", 1], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Portfolio"], ["resource_id", 1], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb (Duration: 67.8ms | Allocations: 27209)
+Completed 200 OK in 78ms (Views: 68.8ms | ActiveRecord: 1.1ms | Allocations: 30065)
+
+
+Started GET "/" for ::1 at 2023-03-03 11:46:36 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.1ms | Allocations: 9)
+  [1m[36mSlider Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.4ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 2.4ms | Allocations: 622)
+  [1m[36mProject Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 3.1ms | Allocations: 1232)
+  Rendered images/_project.html.erb (Duration: 2.0ms | Allocations: 1057)
+  [1m[36mPortfolio Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 0.8ms | Allocations: 440)
+  Rendered images/_contact.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered images/_image_location.html.erb (Duration: 1.1ms | Allocations: 438)
+  Rendered images/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered images/index.html.erb within layouts/application (Duration: 26.7ms | Allocations: 7771)
+  Rendered layout layouts/application.html.erb (Duration: 39.0ms | Allocations: 12275)
+Completed 200 OK in 41ms (Views: 38.5ms | ActiveRecord: 1.6ms | Allocations: 12578)
+
+
+Started GET "/uploads/portfolio/image/2/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90c0339e8%3E" for ::1 at 2023-03-03 11:46:36 +0530
+Started GET "/uploads/portfolio/image/3/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90cbbb8b0%3E" for ::1 at 2023-03-03 11:46:36 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/portfolio/image/2/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90c0339e8%3E"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/portfolio/image/3/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90cbbb8b0%3E"):
+  
+Started GET "/admin/portfolios" for ::1 at 2023-03-03 11:47:14 +0530
+Processing by Admin::PortfoliosController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY "portfolios"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 76.8ms | Allocations: 38809)
+Completed 200 OK in 88ms (Views: 78.8ms | ActiveRecord: 0.6ms | Allocations: 40718)
+
+
+Started GET "/" for ::1 at 2023-03-03 11:56:00 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.5ms | Allocations: 97)
+  [1m[36mSlider Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.5ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 4.8ms | Allocations: 873)
+  [1m[36mProject Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 3.5ms | Allocations: 1409)
+  Rendered images/_project.html.erb (Duration: 3.0ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 2.0ms | Allocations: 677)
+  Rendered images/_contact.html.erb (Duration: 1.1ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 4.5ms | Allocations: 562)
+  Rendered images/_footer.html.erb (Duration: 0.5ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 59.7ms | Allocations: 9853)
+  Rendered layout layouts/application.html.erb (Duration: 76.7ms | Allocations: 14629)
+Completed 200 OK in 81ms (Views: 79.6ms | ActiveRecord: 3.9ms | Allocations: 15440)
+
+
+Started GET "/uploads/portfolio/image/2/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90c0339e8%3E" for ::1 at 2023-03-03 11:56:01 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/portfolio/image/2/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90c0339e8%3E"):
+  
+Started GET "/uploads/portfolio/image/3/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90cbbb8b0%3E" for ::1 at 2023-03-03 11:56:01 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/portfolio/image/3/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90cbbb8b0%3E"):
+  
+Started GET "/admin/portfolios" for ::1 at 2023-03-03 11:56:39 +0530
+Processing by Admin::PortfoliosController#index as HTML
+  [1m[36mAdminUser Load (1.0ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY "portfolios"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 97.8ms | Allocations: 39534)
+Completed 200 OK in 118ms (Views: 103.7ms | ActiveRecord: 1.5ms | Allocations: 41936)
+
+
+Started GET "/admin/portfolios/2/edit" for ::1 at 2023-03-03 11:57:07 +0530
+Processing by Admin::PortfoliosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Load (1.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Portfolio Load (0.0ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb (Duration: 51.8ms | Allocations: 26538)
+Completed 200 OK in 67ms (Views: 54.0ms | ActiveRecord: 1.4ms | Allocations: 29396)
+
+
+Started PATCH "/admin/portfolios/2" for ::1 at 2023-03-03 11:57:17 +0530
+Processing by Admin::PortfoliosController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "portfolio"=>{"title"=>"Jane Doe", "subtitle"=>"Architect", "email"=>"janedoe@gmail.com", "body"=>"Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.\r\n\r\n\r\n", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f921b14aaf0 @tempfile=#<Tempfile:/tmp/RackMultipart20230303-19439-d64hoh.jpg>, @original_filename="team1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"portfolio[image]\"; filename=\"team1.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Portfolio", "id"=>"2"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPortfolio Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "portfolios" WHERE "portfolios"."email" = ? AND "portfolios"."id" != ? LIMIT ?[0m  [["email", "janedoe@gmail.com"], ["id", 2], ["LIMIT", 1]]
+  [1m[36mPortfolio Update (0.5ms)[0m  [1m[33mUPDATE "portfolios" SET "image" = ?, "updated_at" = ? WHERE "portfolios"."id" = ?[0m  [["image", "team1.jpg"], ["updated_at", "2023-03-03 06:27:17.671385"], ["id", 2]]
+  [1m[36mTRANSACTION (22.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/portfolios/2
+Completed 302 Found in 64ms (ActiveRecord: 23.4ms | Allocations: 10016)
+
+
+Started GET "/admin/portfolios/2" for ::1 at 2023-03-03 11:57:17 +0530
+Processing by Admin::PortfoliosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb
+  [1m[36mActiveAdmin::Comment Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Portfolio"], ["resource_id", 2], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Portfolio"], ["resource_id", 2], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb (Duration: 53.0ms | Allocations: 27110)
+Completed 200 OK in 62ms (Views: 54.6ms | ActiveRecord: 1.0ms | Allocations: 29962)
+
+
+Started GET "/" for ::1 at 2023-03-03 11:57:21 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.1ms | Allocations: 9)
+  [1m[36mSlider Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.1ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 2.5ms | Allocations: 622)
+  [1m[36mProject Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 4.1ms | Allocations: 1232)
+  Rendered images/_project.html.erb (Duration: 1.7ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 1.6ms | Allocations: 366)
+  Rendered images/_contact.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered images/_image_location.html.erb (Duration: 2.2ms | Allocations: 438)
+  Rendered images/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered images/index.html.erb within layouts/application (Duration: 32.4ms | Allocations: 7696)
+  Rendered layout layouts/application.html.erb (Duration: 47.3ms | Allocations: 12185)
+Completed 200 OK in 51ms (Views: 47.3ms | ActiveRecord: 1.7ms | Allocations: 12488)
+
+
+Started GET "/uploads/portfolio/image/3/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90cbbb8b0%3E" for ::1 at 2023-03-03 11:57:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/portfolio/image/3/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90cbbb8b0%3E"):
+  
+Started GET "/admin/portfolios/2/edit" for ::1 at 2023-03-03 11:57:57 +0530
+Processing by Admin::PortfoliosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Portfolio Load (0.0ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb (Duration: 67.7ms | Allocations: 26591)
+Completed 200 OK in 83ms (Views: 69.4ms | ActiveRecord: 0.8ms | Allocations: 29242)
+
+
+Started PATCH "/admin/portfolios/2" for ::1 at 2023-03-03 11:58:05 +0530
+Processing by Admin::PortfoliosController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "portfolio"=>{"title"=>"Jane Doe", "subtitle"=>"Architect", "email"=>"janedoe@gmail.com", "body"=>"Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.\r\n\r\n\r\n", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f921b34d7a8 @tempfile=#<Tempfile:/tmp/RackMultipart20230303-19439-8r8hf6.jpg>, @original_filename="team1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"portfolio[image]\"; filename=\"team1.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Portfolio", "id"=>"2"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPortfolio Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "portfolios" WHERE "portfolios"."email" = ? AND "portfolios"."id" != ? LIMIT ?[0m  [["email", "janedoe@gmail.com"], ["id", 2], ["LIMIT", 1]]
+  [1m[36mPortfolio Update (0.7ms)[0m  [1m[33mUPDATE "portfolios" SET "image" = ?, "updated_at" = ? WHERE "portfolios"."id" = ?[0m  [["image", "team1.jpg"], ["updated_at", "2023-03-03 06:28:05.833263"], ["id", 2]]
+  [1m[36mTRANSACTION (10.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/portfolios/2
+Completed 302 Found in 39ms (ActiveRecord: 12.2ms | Allocations: 9467)
+
+
+Started GET "/admin/portfolios/2" for ::1 at 2023-03-03 11:58:05 +0530
+Processing by Admin::PortfoliosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb
+  [1m[36mActiveAdmin::Comment Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Portfolio"], ["resource_id", 2], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Portfolio"], ["resource_id", 2], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb (Duration: 59.4ms | Allocations: 26314)
+Completed 200 OK in 67ms (Views: 58.7ms | ActiveRecord: 1.9ms | Allocations: 28987)
+
+
+Started GET "/" for ::1 at 2023-03-03 12:03:50 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.1ms | Allocations: 9)
+  [1m[36mSlider Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (1.1ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 3.8ms | Allocations: 621)
+  [1m[36mProject Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 3.4ms | Allocations: 1232)
+  Rendered images/_project.html.erb (Duration: 1.8ms | Allocations: 1057)
+  [1m[36mPortfolio Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 1.1ms | Allocations: 366)
+  Rendered images/_contact.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered images/_image_location.html.erb (Duration: 1.1ms | Allocations: 438)
+  Rendered images/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered images/index.html.erb within layouts/application (Duration: 35.0ms | Allocations: 7897)
+  Rendered layout layouts/application.html.erb (Duration: 44.8ms | Allocations: 12401)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 3.5ms | Allocations: 12702)
+
+
+Started GET "/uploads/portfolio/image/3/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90cbbb8b0%3E" for ::1 at 2023-03-03 12:03:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/portfolio/image/3/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90cbbb8b0%3E"):
+  
+Started GET "/admin/portfolios" for ::1 at 2023-03-03 12:04:06 +0530
+Processing by Admin::PortfoliosController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY "portfolios"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 84.5ms | Allocations: 38463)
+Completed 200 OK in 96ms (Views: 85.2ms | ActiveRecord: 0.8ms | Allocations: 40421)
+
+
+Started GET "/admin/portfolios/3/edit" for ::1 at 2023-03-03 12:04:09 +0530
+Processing by Admin::PortfoliosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Portfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb (Duration: 63.4ms | Allocations: 26445)
+Completed 200 OK in 75ms (Views: 64.3ms | ActiveRecord: 0.6ms | Allocations: 29135)
+
+
+Started PATCH "/admin/portfolios/3" for ::1 at 2023-03-03 12:04:17 +0530
+Processing by Admin::PortfoliosController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "portfolio"=>{"title"=>"Mike Ross", "subtitle"=>"Architect", "email"=>"mikeross@gmail.com", "body"=>"Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.\r\n", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f921b0d43a0 @tempfile=#<Tempfile:/tmp/RackMultipart20230303-19439-7vr34x.jpg>, @original_filename="team3.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"portfolio[image]\"; filename=\"team3.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Portfolio", "id"=>"3"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPortfolio Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "portfolios" WHERE "portfolios"."email" = ? AND "portfolios"."id" != ? LIMIT ?[0m  [["email", "mikeross@gmail.com"], ["id", 3], ["LIMIT", 1]]
+  [1m[36mPortfolio Update (0.6ms)[0m  [1m[33mUPDATE "portfolios" SET "image" = ?, "updated_at" = ? WHERE "portfolios"."id" = ?[0m  [["image", "team3.jpg"], ["updated_at", "2023-03-03 06:34:18.021959"], ["id", 3]]
+  [1m[36mTRANSACTION (22.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/portfolios/3
+Completed 302 Found in 55ms (ActiveRecord: 24.2ms | Allocations: 9496)
+
+
+Started GET "/admin/portfolios/3" for ::1 at 2023-03-03 12:04:18 +0530
+Processing by Admin::PortfoliosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb
+  [1m[36mActiveAdmin::Comment Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Portfolio"], ["resource_id", 3], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Portfolio"], ["resource_id", 3], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb (Duration: 55.8ms | Allocations: 26468)
+Completed 200 OK in 66ms (Views: 57.3ms | ActiveRecord: 1.4ms | Allocations: 29173)
+
+
+Started GET "/" for ::1 at 2023-03-03 12:04:22 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.1ms | Allocations: 9)
+  [1m[36mSlider Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.3ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 2.9ms | Allocations: 621)
+  [1m[36mProject Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 3.1ms | Allocations: 1232)
+  Rendered images/_project.html.erb (Duration: 2.1ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 1.1ms | Allocations: 292)
+  Rendered images/_contact.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered images/_image_location.html.erb (Duration: 1.8ms | Allocations: 438)
+  Rendered images/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered images/index.html.erb within layouts/application (Duration: 32.8ms | Allocations: 7621)
+  Rendered layout layouts/application.html.erb (Duration: 48.2ms | Allocations: 12110)
+Completed 200 OK in 51ms (Views: 47.9ms | ActiveRecord: 1.8ms | Allocations: 12411)
+
+
+Started GET "/admin/sliders" for ::1 at 2023-03-03 12:08:41 +0530
+Processing by Admin::SlidersController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mSlider Load (0.4ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders" ORDER BY "sliders"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 61.2ms | Allocations: 28704)
+Completed 200 OK in 79ms (Views: 64.2ms | ActiveRecord: 0.6ms | Allocations: 31136)
+
+
+Started GET "/admin/sliders/2/edit" for ::1 at 2023-03-03 12:08:45 +0530
+Processing by Admin::SlidersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSlider Load (0.5ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders" WHERE "sliders"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Slider Load (0.1ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders" WHERE "sliders"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb (Duration: 52.7ms | Allocations: 23411)
+Completed 200 OK in 68ms (Views: 54.1ms | ActiveRecord: 0.7ms | Allocations: 26768)
+
+
+Started PATCH "/admin/sliders/2" for ::1 at 2023-03-03 12:08:53 +0530
+Processing by Admin::SlidersController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "slider"=>{"name"=>"Architects", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f921b1a7138 @tempfile=#<Tempfile:/tmp/RackMultipart20230303-19439-63soa6.jpg>, @original_filename="architect.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"slider[image]\"; filename=\"architect.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Slider", "id"=>"2"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSlider Load (0.1ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders" WHERE "sliders"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSlider Update (0.5ms)[0m  [1m[33mUPDATE "sliders" SET "image" = ?, "updated_at" = ? WHERE "sliders"."id" = ?[0m  [["image", "architect.jpg"], ["updated_at", "2023-03-03 06:38:53.641370"], ["id", 2]]
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/sliders/2
+Completed 302 Found in 31ms (ActiveRecord: 4.1ms | Allocations: 8447)
+
+
+Started GET "/admin/sliders/2" for ::1 at 2023-03-03 12:08:53 +0530
+Processing by Admin::SlidersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSlider Load (0.2ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders" WHERE "sliders"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb
+  [1m[36mActiveAdmin::Comment Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Slider"], ["resource_id", 2], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Slider"], ["resource_id", 2], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb (Duration: 55.6ms | Allocations: 25637)
+Completed 200 OK in 64ms (Views: 56.4ms | ActiveRecord: 1.1ms | Allocations: 28407)
+
+
+Started GET "/admin/sliders" for ::1 at 2023-03-03 12:13:06 +0530
+Processing by Admin::SlidersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mSlider Load (0.4ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders" ORDER BY "sliders"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 77.7ms | Allocations: 28098)
+Completed 200 OK in 87ms (Views: 79.9ms | ActiveRecord: 0.6ms | Allocations: 30013)
+
+
+Started GET "/" for ::1 at 2023-03-03 12:13:09 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.1ms | Allocations: 9)
+  [1m[36mSlider Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.3ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 2.3ms | Allocations: 622)
+  [1m[36mProject Count (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 3.8ms | Allocations: 1232)
+  Rendered images/_project.html.erb (Duration: 3.9ms | Allocations: 1056)
+  [1m[36mPortfolio Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 1.0ms | Allocations: 292)
+  Rendered images/_contact.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered images/_image_location.html.erb (Duration: 1.7ms | Allocations: 438)
+  Rendered images/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered images/index.html.erb within layouts/application (Duration: 33.2ms | Allocations: 7623)
+  Rendered layout layouts/application.html.erb (Duration: 50.8ms | Allocations: 12115)
+Completed 200 OK in 53ms (Views: 49.8ms | ActiveRecord: 2.6ms | Allocations: 12417)
+
+
+Started GET "/" for ::1 at 2023-03-03 12:15:51 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 1.3ms | Allocations: 97)
+  [1m[36mSlider Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.3ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 2.4ms | Allocations: 280)
+  [1m[36mProject Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 1.7ms | Allocations: 757)
+  Rendered images/_project.html.erb (Duration: 1.2ms | Allocations: 556)
+  [1m[36mPortfolio Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 1.5ms | Allocations: 526)
+  Rendered images/_contact.html.erb (Duration: 0.4ms | Allocations: 123)
+  Rendered images/_image_location.html.erb (Duration: 1.9ms | Allocations: 775)
+  Rendered images/_footer.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered images/index.html.erb within layouts/application (Duration: 37.5ms | Allocations: 7955)
+  Rendered layout layouts/application.html.erb (Duration: 49.8ms | Allocations: 12702)
+Completed 200 OK in 55ms (Views: 50.8ms | ActiveRecord: 2.4ms | Allocations: 13513)
+
+
+Started GET "/uploads/project/image/1/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90f8d6bd8%3E" for ::1 at 2023-03-03 12:15:52 +0530
+Started GET "/uploads/project/image/2/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90cb91920%3E" for ::1 at 2023-03-03 12:15:52 +0530
+Started GET "/uploads/project/image/4/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90f25af20%3E" for ::1 at 2023-03-03 12:15:52 +0530
+Started GET "/uploads/project/image/3/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90cc250a8%3E" for ::1 at 2023-03-03 12:15:52 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/project/image/1/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90f8d6bd8%3E"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/project/image/2/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90cb91920%3E"):
+  
+Started GET "/uploads/project/image/6/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90c2e8440%3E" for ::1 at 2023-03-03 12:15:52 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/project/image/4/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90f25af20%3E"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/project/image/3/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90cc250a8%3E"):
+  
+Started GET "/uploads/project/image/5/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90febbc88%3E" for ::1 at 2023-03-03 12:15:52 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/project/image/6/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90c2e8440%3E"):
+  
+Started GET "/uploads/project/image/7/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90c2e2130%3E" for ::1 at 2023-03-03 12:15:52 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/project/image/5/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90febbc88%3E"):
+  
+Started GET "/uploads/project/image/9/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90cbb87a0%3E" for ::1 at 2023-03-03 12:15:52 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/project/image/7/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90c2e2130%3E"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/project/image/9/%23%3CActionDispatch%3A%3AHttp%3A%3AUploadedFile%3A0x00007ff90cbb87a0%3E"):
+  
+Started GET "/admin/portfolios" for ::1 at 2023-03-03 12:16:10 +0530
+Processing by Admin::PortfoliosController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY "portfolios"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 109.2ms | Allocations: 39121)
+Completed 200 OK in 126ms (Views: 113.6ms | ActiveRecord: 0.8ms | Allocations: 41463)
+
+
+Started GET "/admin/projects" for ::1 at 2023-03-03 12:16:11 +0530
+Processing by Admin::ProjectsController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects" ORDER BY "projects"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 90.3ms | Allocations: 42696)
+Completed 200 OK in 100ms (Views: 93.0ms | ActiveRecord: 0.6ms | Allocations: 45135)
+
+
+Started GET "/admin/projects/9/edit" for ::1 at 2023-03-03 12:16:23 +0530
+Processing by Admin::ProjectsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Project Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb (Duration: 50.2ms | Allocations: 23429)
+Completed 200 OK in 66ms (Views: 52.5ms | ActiveRecord: 0.7ms | Allocations: 26864)
+
+
+Started PATCH "/admin/projects/9" for ::1 at 2023-03-03 12:17:04 +0530
+Processing by Admin::ProjectsController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "project"=>{"title"=>"CTesting", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f921b34bc28 @tempfile=#<Tempfile:/tmp/RackMultipart20230303-19439-rl2efc.jpg>, @original_filename="house5.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[image]\"; filename=\"house5.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Project", "id"=>"9"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProject Update (0.5ms)[0m  [1m[33mUPDATE "projects" SET "image" = ?, "updated_at" = ? WHERE "projects"."id" = ?[0m  [["image", "house5.jpg"], ["updated_at", "2023-03-03 06:47:04.339834"], ["id", 9]]
+  [1m[36mTRANSACTION (14.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/projects/9
+Completed 302 Found in 45ms (ActiveRecord: 15.7ms | Allocations: 8857)
+
+
+Started GET "/admin/projects/9" for ::1 at 2023-03-03 12:17:04 +0530
+Processing by Admin::ProjectsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb
+  [1m[36mActiveAdmin::Comment Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Project"], ["resource_id", 9], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Project"], ["resource_id", 9], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb (Duration: 51.6ms | Allocations: 26422)
+Completed 200 OK in 62ms (Views: 52.3ms | ActiveRecord: 1.3ms | Allocations: 29287)
+
+
+Started GET "/admin/projects" for ::1 at 2023-03-03 12:17:09 +0530
+Processing by Admin::ProjectsController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects" ORDER BY "projects"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 81.1ms | Allocations: 42018)
+Completed 200 OK in 91ms (Views: 81.7ms | ActiveRecord: 0.7ms | Allocations: 43936)
+
+
+Started GET "/admin/projects/7/edit" for ::1 at 2023-03-03 12:17:16 +0530
+Processing by Admin::ProjectsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Project Load (0.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb (Duration: 47.9ms | Allocations: 22078)
+Completed 200 OK in 61ms (Views: 49.2ms | ActiveRecord: 0.6ms | Allocations: 24712)
+
+
+Started GET "/admin/projects/1/edit" for ::1 at 2023-03-03 12:17:23 +0530
+Processing by Admin::ProjectsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Project Load (0.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb (Duration: 58.8ms | Allocations: 22066)
+Completed 200 OK in 72ms (Views: 59.8ms | ActiveRecord: 0.6ms | Allocations: 24713)
+
+
+Started PATCH "/admin/projects/1" for ::1 at 2023-03-03 12:17:29 +0530
+Processing by Admin::ProjectsController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "project"=>{"title"=>"Summer House", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f921b004420 @tempfile=#<Tempfile:/tmp/RackMultipart20230303-19439-opg8xi.jpg>, @original_filename="house5.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[image]\"; filename=\"house5.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Project", "id"=>"1"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProject Update (0.7ms)[0m  [1m[33mUPDATE "projects" SET "image" = ?, "updated_at" = ? WHERE "projects"."id" = ?[0m  [["image", "house5.jpg"], ["updated_at", "2023-03-03 06:47:29.947963"], ["id", 1]]
+  [1m[36mTRANSACTION (10.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/projects/1
+Completed 302 Found in 36ms (ActiveRecord: 11.7ms | Allocations: 7975)
+
+
+Started GET "/admin/projects/1" for ::1 at 2023-03-03 12:17:29 +0530
+Processing by Admin::ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb
+  [1m[36mActiveAdmin::Comment Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Project"], ["resource_id", 1], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Project"], ["resource_id", 1], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb (Duration: 194.3ms | Allocations: 26012)
+Completed 200 OK in 247ms (Views: 200.0ms | ActiveRecord: 1.3ms | Allocations: 28664)
+
+
+Started GET "/admin/projects" for ::1 at 2023-03-03 12:17:31 +0530
+Processing by Admin::ProjectsController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects" ORDER BY "projects"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 84.3ms | Allocations: 42360)
+Completed 200 OK in 91ms (Views: 85.0ms | ActiveRecord: 0.5ms | Allocations: 44269)
+
+
+Started GET "/admin/projects/2/edit" for ::1 at 2023-03-03 12:17:34 +0530
+Processing by Admin::ProjectsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Project Load (0.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb (Duration: 40.4ms | Allocations: 21934)
+Completed 200 OK in 48ms (Views: 41.3ms | ActiveRecord: 0.4ms | Allocations: 24594)
+
+
+Started PATCH "/admin/projects/2" for ::1 at 2023-03-03 12:17:40 +0530
+Processing by Admin::ProjectsController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "project"=>{"title"=>"Brick House", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f921b2d95b0 @tempfile=#<Tempfile:/tmp/RackMultipart20230303-19439-fbqjru.jpg>, @original_filename="house4.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[image]\"; filename=\"house4.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Project", "id"=>"2"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProject Update (0.8ms)[0m  [1m[33mUPDATE "projects" SET "image" = ?, "updated_at" = ? WHERE "projects"."id" = ?[0m  [["image", "house4.jpg"], ["updated_at", "2023-03-03 06:47:40.980580"], ["id", 2]]
+  [1m[36mTRANSACTION (23.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/projects/2
+Completed 302 Found in 56ms (ActiveRecord: 25.1ms | Allocations: 7987)
+
+
+Started GET "/admin/projects/2" for ::1 at 2023-03-03 12:17:41 +0530
+Processing by Admin::ProjectsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb
+  [1m[36mActiveAdmin::Comment Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Project"], ["resource_id", 2], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Project"], ["resource_id", 2], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb (Duration: 58.2ms | Allocations: 25858)
+Completed 200 OK in 68ms (Views: 58.6ms | ActiveRecord: 1.3ms | Allocations: 28522)
+
+
+Started GET "/admin/projects" for ::1 at 2023-03-03 12:17:43 +0530
+Processing by Admin::ProjectsController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects" ORDER BY "projects"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 81.8ms | Allocations: 42276)
+Completed 200 OK in 89ms (Views: 82.5ms | ActiveRecord: 0.5ms | Allocations: 44196)
+
+
+Started GET "/admin/projects/3/edit" for ::1 at 2023-03-03 12:17:46 +0530
+Processing by Admin::ProjectsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Project Load (0.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb (Duration: 41.5ms | Allocations: 21928)
+Completed 200 OK in 52ms (Views: 42.5ms | ActiveRecord: 0.5ms | Allocations: 24552)
+
+
+Started PATCH "/admin/projects/3" for ::1 at 2023-03-03 12:17:53 +0530
+Processing by Admin::ProjectsController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "project"=>{"title"=>"Renovated", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f921b2d10e0 @tempfile=#<Tempfile:/tmp/RackMultipart20230303-19439-n2choz.jpg>, @original_filename="house3.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[image]\"; filename=\"house3.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Project", "id"=>"3"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProject Update (0.6ms)[0m  [1m[33mUPDATE "projects" SET "image" = ?, "updated_at" = ? WHERE "projects"."id" = ?[0m  [["image", "house3.jpg"], ["updated_at", "2023-03-03 06:47:53.077311"], ["id", 3]]
+  [1m[36mTRANSACTION (27.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/projects/3
+Completed 302 Found in 56ms (ActiveRecord: 29.0ms | Allocations: 7987)
+
+
+Started GET "/admin/projects/3" for ::1 at 2023-03-03 12:17:53 +0530
+Processing by Admin::ProjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb
+  [1m[36mActiveAdmin::Comment Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Project"], ["resource_id", 3], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Project"], ["resource_id", 3], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb (Duration: 64.5ms | Allocations: 25708)
+Completed 200 OK in 72ms (Views: 64.9ms | ActiveRecord: 1.0ms | Allocations: 28375)
+
+
+Started GET "/admin/projects" for ::1 at 2023-03-03 12:17:54 +0530
+Processing by Admin::ProjectsController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects" ORDER BY "projects"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 91.6ms | Allocations: 42217)
+Completed 200 OK in 102ms (Views: 92.7ms | ActiveRecord: 0.6ms | Allocations: 44141)
+
+
+Started GET "/admin/projects/4/edit" for ::1 at 2023-03-03 12:17:59 +0530
+Processing by Admin::ProjectsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Project Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb (Duration: 54.7ms | Allocations: 21930)
+Completed 200 OK in 67ms (Views: 55.7ms | ActiveRecord: 0.6ms | Allocations: 24572)
+
+
+Started PATCH "/admin/projects/4" for ::1 at 2023-03-03 12:18:05 +0530
+Processing by Admin::ProjectsController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "project"=>{"title"=>"Barn House", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f921b3355b8 @tempfile=#<Tempfile:/tmp/RackMultipart20230303-19439-q4e7ml.jpg>, @original_filename="house2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[image]\"; filename=\"house2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Project", "id"=>"4"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProject Update (0.6ms)[0m  [1m[33mUPDATE "projects" SET "image" = ?, "updated_at" = ? WHERE "projects"."id" = ?[0m  [["image", "house2.jpg"], ["updated_at", "2023-03-03 06:48:05.254317"], ["id", 4]]
+  [1m[36mTRANSACTION (18.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/projects/4
+Completed 302 Found in 52ms (ActiveRecord: 19.5ms | Allocations: 7987)
+
+
+Started GET "/admin/projects/4" for ::1 at 2023-03-03 12:18:05 +0530
+Processing by Admin::ProjectsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb
+  [1m[36mActiveAdmin::Comment Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Project"], ["resource_id", 4], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Project"], ["resource_id", 4], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb (Duration: 60.7ms | Allocations: 25595)
+Completed 200 OK in 71ms (Views: 61.5ms | ActiveRecord: 1.2ms | Allocations: 28253)
+
+
+Started GET "/admin/projects" for ::1 at 2023-03-03 12:18:06 +0530
+Processing by Admin::ProjectsController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects" ORDER BY "projects"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 79.6ms | Allocations: 42147)
+Completed 200 OK in 87ms (Views: 80.5ms | ActiveRecord: 0.6ms | Allocations: 44052)
+
+
+Started GET "/admin/projects/5/edit" for ::1 at 2023-03-03 12:18:09 +0530
+Processing by Admin::ProjectsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Project Load (0.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb (Duration: 41.7ms | Allocations: 21933)
+Completed 200 OK in 53ms (Views: 42.5ms | ActiveRecord: 0.6ms | Allocations: 24572)
+
+
+Started PATCH "/admin/projects/5" for ::1 at 2023-03-03 12:18:17 +0530
+Processing by Admin::ProjectsController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "project"=>{"title"=>"Summer House", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f921b334898 @tempfile=#<Tempfile:/tmp/RackMultipart20230303-19439-wfftzw.jpg>, @original_filename="house2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[image]\"; filename=\"house2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Project", "id"=>"5"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProject Update (0.6ms)[0m  [1m[33mUPDATE "projects" SET "image" = ?, "updated_at" = ? WHERE "projects"."id" = ?[0m  [["image", "house2.jpg"], ["updated_at", "2023-03-03 06:48:17.172874"], ["id", 5]]
+  [1m[36mTRANSACTION (23.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/projects/5
+Completed 302 Found in 51ms (ActiveRecord: 24.8ms | Allocations: 7996)
+
+
+Started GET "/admin/projects/5" for ::1 at 2023-03-03 12:18:17 +0530
+Processing by Admin::ProjectsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb
+  [1m[36mActiveAdmin::Comment Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Project"], ["resource_id", 5], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Project"], ["resource_id", 5], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb (Duration: 62.1ms | Allocations: 25589)
+Completed 200 OK in 72ms (Views: 62.5ms | ActiveRecord: 1.1ms | Allocations: 28253)
+
+
+Started GET "/admin/projects" for ::1 at 2023-03-03 12:18:20 +0530
+Processing by Admin::ProjectsController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects" ORDER BY "projects"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 83.0ms | Allocations: 42057)
+Completed 200 OK in 90ms (Views: 83.7ms | ActiveRecord: 0.6ms | Allocations: 43965)
+
+
+Started GET "/admin/projects/6/edit" for ::1 at 2023-03-03 12:18:23 +0530
+Processing by Admin::ProjectsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Project Load (0.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb (Duration: 48.8ms | Allocations: 22013)
+Completed 200 OK in 62ms (Views: 50.2ms | ActiveRecord: 0.6ms | Allocations: 24664)
+
+
+Started PATCH "/admin/projects/6" for ::1 at 2023-03-03 12:18:56 +0530
+Processing by Admin::ProjectsController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "project"=>{"title"=>"Brick House", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f921b2d2210 @tempfile=#<Tempfile:/tmp/RackMultipart20230303-19439-eaz31t.jpg>, @original_filename="house3.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[image]\"; filename=\"house3.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Project", "id"=>"6"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProject Update (0.6ms)[0m  [1m[33mUPDATE "projects" SET "image" = ?, "updated_at" = ? WHERE "projects"."id" = ?[0m  [["image", "house3.jpg"], ["updated_at", "2023-03-03 06:48:56.279014"], ["id", 6]]
+  [1m[36mTRANSACTION (10.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/projects/6
+Completed 302 Found in 38ms (ActiveRecord: 11.8ms | Allocations: 7967)
+
+
+Started GET "/admin/projects/6" for ::1 at 2023-03-03 12:18:56 +0530
+Processing by Admin::ProjectsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb
+  [1m[36mActiveAdmin::Comment Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Project"], ["resource_id", 6], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Project"], ["resource_id", 6], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb (Duration: 57.9ms | Allocations: 25587)
+Completed 200 OK in 67ms (Views: 58.1ms | ActiveRecord: 1.1ms | Allocations: 28236)
+
+
+Started GET "/admin/projects" for ::1 at 2023-03-03 12:18:58 +0530
+Processing by Admin::ProjectsController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects" ORDER BY "projects"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/index.html.arb (Duration: 84.0ms | Allocations: 41978)
+Completed 200 OK in 93ms (Views: 84.7ms | ActiveRecord: 0.7ms | Allocations: 43892)
+
+
+Started GET "/admin/projects/7/edit" for ::1 at 2023-03-03 12:19:00 +0530
+Processing by Admin::ProjectsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Project Load (0.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/edit.html.arb (Duration: 46.4ms | Allocations: 22015)
+Completed 200 OK in 55ms (Views: 47.3ms | ActiveRecord: 0.4ms | Allocations: 24657)
+
+
+Started PATCH "/admin/projects/7" for ::1 at 2023-03-03 12:19:07 +0530
+Processing by Admin::ProjectsController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "project"=>{"title"=>"Renovated", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f921b142f30 @tempfile=#<Tempfile:/tmp/RackMultipart20230303-19439-g67qw2.jpg>, @original_filename="house4.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[image]\"; filename=\"house4.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Project", "id"=>"7"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProject Update (0.4ms)[0m  [1m[33mUPDATE "projects" SET "image" = ?, "updated_at" = ? WHERE "projects"."id" = ?[0m  [["image", "house4.jpg"], ["updated_at", "2023-03-03 06:49:07.032389"], ["id", 7]]
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/projects/7
+Completed 302 Found in 30ms (ActiveRecord: 3.8ms | Allocations: 8002)
+
+
+Started GET "/admin/projects/7" for ::1 at 2023-03-03 12:19:07 +0530
+Processing by Admin::ProjectsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb
+  [1m[36mActiveAdmin::Comment Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Project"], ["resource_id", 7], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Project"], ["resource_id", 7], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/kamaljoshi/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/activeadmin-2.13.1/app/views/active_admin/resource/show.html.arb (Duration: 59.8ms | Allocations: 25589)
+Completed 200 OK in 70ms (Views: 60.2ms | ActiveRecord: 1.1ms | Allocations: 28262)
+
+
+Started GET "/" for ::1 at 2023-03-03 12:19:10 +0530
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering images/index.html.erb within layouts/application
+  Rendered images/_navbar.html.erb (Duration: 0.1ms | Allocations: 9)
+  [1m[36mSlider Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  [1m[36mSlider Load (0.2ms)[0m  [1m[34mSELECT "sliders".* FROM "sliders"[0m
+  ↳ app/views/images/index.html.erb:17:in `each_slice'
+  Rendered images/_header.html.erb (Duration: 0.5ms | Allocations: 71)
+  [1m[36mProject Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/images/index.html.erb:27:in `each_slice'
+  Rendered images/_project.html.erb (Duration: 0.7ms | Allocations: 260)
+  Rendered images/_project.html.erb (Duration: 0.4ms | Allocations: 260)
+  [1m[36mPortfolio Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  [1m[36mPortfolio Load (0.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  ↳ app/views/images/index.html.erb:40:in `each_slice'
+  Rendered images/_about.html.erb (Duration: 0.6ms | Allocations: 292)
+  Rendered images/_contact.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered images/_image_location.html.erb (Duration: 2.9ms | Allocations: 624)
+  Rendered images/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered images/index.html.erb within layouts/application (Duration: 20.7ms | Allocations: 5489)
+  Rendered layout layouts/application.html.erb (Duration: 32.0ms | Allocations: 10025)
+Completed 200 OK in 34ms (Views: 31.6ms | ActiveRecord: 1.2ms | Allocations: 10328)
+
+
